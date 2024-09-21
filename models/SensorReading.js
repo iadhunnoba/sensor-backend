@@ -2,7 +2,7 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config');
 
-const SensorReading = sequelize.define('SensorReading', {
+const SensorReading = sequelize.define('sensor_data', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
