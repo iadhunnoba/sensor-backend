@@ -21,7 +21,7 @@ const SensorReading = sequelize.define('sensor_data', {
         type: DataTypes.DATE,
     },
 
-    timestamps: false, // Desactivar los timestamps
+    timestamp: false, // Desactivar los timestamps
 });
 
 module.exports = SensorReading;
